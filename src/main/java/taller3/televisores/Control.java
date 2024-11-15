@@ -36,7 +36,9 @@ public class Control {
 
     
     public void setCanal(int canal){
+        if (canal >= 1 && canal <= 120){
         tv.setCanal(canal);
+        }
     }
 
     public void setVolumen(int volumen){
